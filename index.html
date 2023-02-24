@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dogs</title>
+</head>
+<body>
+    <header>
+    <h1>Dog Viewer</h1>
+    <div class ="dog-breed-area">
+        <label for="dogDropDown">Dog Breed</label>
+        <select name="dogDropDown" id="dogDropDown" required>
+        <option value="" disabled selected hidden>--Select--</option>
+    </select>
+        <button type="button" class="button">Fetch</button>
+    </div>
+    </header>
+  <div class="doggos">
+    <!-- img tag with default dog picture -->
+    <img class="load-image show"src="neapolitan-mastiff.jpg" alt="corgi pic"/>
+    <!-- spinning emoji on picture load -->
+    <div class="spinner">
+        🐶
+    </div>
+  </div>
+
+  <script src="./index.js"></script> 
+</body>
+</html>

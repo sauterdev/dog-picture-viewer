@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: darkgreen;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.doggos {
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.dog-breed-area {
+    border: 2px solid yellow;
+}
+
+#dogDropDown {
+    width: 150px;
+    text-align: center;
+}
+
+.loaded-picture {
+    width: 40%;
+    height: 40%;
+}
+
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: 2s spin linear infinite;
+    display: none;
+}
+
+.load-image {
+    display: none;
+}
+
+.show {
+    display: block;
+}
